@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function restartGame() {
+    restartGame = () => {
         gameBoard = ['', '', '', '', '', '', '', '', ''];
         currentPlayer = 'X';
         gameActive = true;
