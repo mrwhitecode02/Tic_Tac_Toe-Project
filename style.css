@@ -1,0 +1,50 @@
+body {
+    background-color: #000;
+    color: #00FF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #00FF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #008000;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00FF00;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background-color: #008000;
+}
